@@ -1,0 +1,8 @@
+# Copiar este archivo como conexion.local.txt (misma carpeta) y completar los datos.
+# Se usa la primera línea que no empiece con #.
+
+# TiDB Cloud (datos en el botón "Connect" del cluster):
+Server=HOST_DE_TIDB;Port=4000;Database=torneo_futbol5;Uid=USUARIO;Pwd=CONTRASEÑA;SslMode=VerifyFull;
+
+# XAMPP local (para usarlo, comentar la línea de TiDB y descomentar esta):
+# Server=localhost;Port=3306;Database=torneo_futbol5;Uid=root;Pwd=;

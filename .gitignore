@@ -3,6 +3,9 @@
 *.user
 *.suo
 
+# Conexión con contraseña (ver conexion.ejemplo.txt)
+conexion.local.txt
+
 # Compilación
 bin/
 obj/

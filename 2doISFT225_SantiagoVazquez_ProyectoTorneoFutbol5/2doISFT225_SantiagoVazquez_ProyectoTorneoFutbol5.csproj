@@ -13,4 +13,9 @@
     <PackageReference Include="MySql.Data" Version="26.7.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- Se copia junto al .exe para que la app lo encuentre al ejecutarse. -->
+    <None Update="conexion.local.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
