@@ -1,19 +1,19 @@
 # Torneo Fútbol 5 - Inscripciones
 
-CRUD en C# Windows Forms (.NET 10) para inscribir participantes a un torneo de fútbol 5, con base de datos MySQL en la nube (TiDB Cloud).
+CRUD en C# Windows Forms (.NET 8) para inscribir participantes a un torneo de fútbol 5, con base de datos MySQL en la nube (TiDB Cloud).
 La categoría se asigna automáticamente según la edad y el sexo del participante.
 
 ## Requisitos
 
-- Visual Studio Community con la carga de trabajo "Desarrollo de escritorio de .NET"
-- .NET 10 SDK
+- Visual Studio 2022 (versión 17.8 o superior) o Visual Studio 2026, con la carga de trabajo "Desarrollo de escritorio de .NET"
+- .NET 8 (viene incluido en esa carga de trabajo)
 - Acceso a la base en TiDB Cloud (o XAMPP para trabajar en local)
 
 ## Cómo ejecutarlo
 
 1. En la carpeta del proyecto, copiar `conexion.ejemplo.txt` como `conexion.local.txt`.
 2. Completar en `conexion.local.txt` el host, usuario y contraseña de TiDB (botón **Connect** del cluster).
-3. Abrir `2doISFT225_SantiagoVazquez_ProyectoTorneoFutbol5.slnx` en Visual Studio y ejecutar.
+3. Abrir `2doISFT225_SantiagoVazquez_ProyectoTorneoFutbol5.sln` en Visual Studio y ejecutar.
 
 `conexion.local.txt` está en el `.gitignore` porque contiene la contraseña: no se sube al repositorio.
 
